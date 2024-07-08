@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 /* font-family: "Merriweather", serif; */
 * {
@@ -108,9 +109,317 @@
     text-align: center;
     margin-top: 16px;
 }
-.holidays-banner{
+
+.holidays-banner {
     width: 100%;
     height: 500px;
     /* border: 1px solid red; */
     background-image: url('/images/New\ Year\ Photo.png');
+}
+
+.midnight {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 1px solid tomato; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    background-image: url('/images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.midnight-message {
+    width: 862px;
+    height: 100%;
+    /* border: 1px solid tomato; */
+}
+
+.midnight-banner {
+    width: 458;
+    height: 100%;
+    /* border: 1px solid tomato; */
+
+}
+
+.midnight-message h2 {
+    margin-top: 126px;
+    margin-left: 126px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    margin-bottom: 24px;
+    margin-right: 94px;
+    /* border: 1px solid yellow; */
+
+}
+
+.midnight-message p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-left: 126px;
+    /* border: 1px solid gray; */
+    margin-bottom: 60px;
+}
+
+.midnight-message button {
+    width: 250px;
+    height: 42px;
+    border: none;
+    margin-left: 200px;
+
+    background: none;
+    color: white;
+    /* border: 1px solid gray; */
+}
+
+.midnight-banner {
+    width: 349px;
+    height: 464px;
+    /* border: 1px solid steelblue; */
+    margin: auto;
+    background-image: url('/images/Group\ 70.png');
+}
+
+.Time-Date {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1320px;
+    height: 482px;
+    /* border: 1px solid tomato; */
+
+
+}
+
+.time-date-container {
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 110px;
+    width: 600px;
+    height: 300px;
+    /* border: 1px solid tomato; */
+    border-radius: 16px;
+    background: linear-gradient rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.time-button {
+    width: 200px;
+    height: 42px;
+    margin-top: 48px;
+    background: none;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.best-offer-design {
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    /* border: 1px solid tomato; */
+    display: flex;
+    flex-direction: row;
+}
+
+.best-offer-message {
+    width: 450px;
+    height: 100%;
+    /* border: 1px solid tomato; */
+
+}
+
+.best-offer-message h3 {
+    margin-top: 104px;
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+
+
+}
+
+.best-offer-message h1 {
+    margin-top: 16px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+
+
+}
+
+.best-offer-message p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.best-offer-picture {
+    width: 463px;
+    height: 463px;
+    /* border: 1px solid tomato; */
+    /* margin-left: 463px; */
+    background-image: url('/images/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+
+
+}
+
+.best-offer-time {
+    width: 405px;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.best-offer-time h1 {
+    margin-top: 112px;
+    margin-left: 149px;
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    margin-bottom: 16px;
+
+}
+
+.best-offer-time p {
+    width: 276px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-left: 150px;
+
+}
+
+.best-offer-time img {
+    margin-left: 149px;
+    margin-top: 38px;
+    /* border: 1px solid black; */
+
+    width: 140px;
+    height: 140px;
+}
+
+.sale {
+    margin: 0 auto;
+    width: 1320px;
+    height: 986px;
+    border: 1px solid tomato;
+    margin-top: 30px;
+
+
+}
+
+.sale-holidays {
+    width: 1068px;
+    height: 260px;
+    border: 1px solid tomato;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+}
+
+.sale-holidays-child1 {
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 16px;
+}
+
+.sale-holidays-child2 {
+    font-size: 48px;
+    font-weight: 900px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 28px;
+}
+
+.sale-holidays-child3 {
+    . font-size: 20px;
+    font-weight: 500px;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+    /* margin-bottom: 64px; */
+}
+
+.sale-container {
+    width: 1320px;
+    height: 662.07px;
+    border: 1px solid rebeccapurple;
+    margin-top: 64px;
+}
+
+.sale-container-1 {
+
+    width: 1320px;
+    height: 229px;
+    background: rgb(255, 0, 0);
+    border-radius: 16px 0px 16px 16px;
+    border: 1px solid black;
+
+}
+
+.sale-container-2 {
+    margin: 0 auto;
+    width: 1320px;
+    height: 430px;
+    border: 1px solid gold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sale-container-2-pic-1 {
+   width: 400.82px;
+   height: 400px;
+   border: 1px solid tomato;
+   transform: none;
+
+}
+
+.sale-container-2-pic-2 {
+    width: 206px;
+    height: 206px ;
+    margin-left: 500px;
+
 }
