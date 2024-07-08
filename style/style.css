@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 1320px;
+    height: 600px;
+    border: 1px solid tomato;
+}
