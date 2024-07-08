@@ -341,8 +341,8 @@
     margin: 0 auto;
     width: 1320px;
     height: 986px;
-    border: 1px solid tomato;
-    margin-top: 30px;
+    /* border: 1px solid tomato; */
+    margin-top: 70px;
 
 
 }
@@ -350,7 +350,7 @@
 .sale-holidays {
     width: 1068px;
     height: 260px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -385,7 +385,7 @@
 .sale-container {
     width: 1320px;
     height: 662.07px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     margin-top: 64px;
 }
 
@@ -395,7 +395,7 @@
     height: 229px;
     background: rgb(255, 0, 0);
     border-radius: 16px 0px 16px 16px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
@@ -403,7 +403,7 @@
     margin: 0 auto;
     width: 1320px;
     height: 430px;
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -412,7 +412,7 @@
 .sale-container-2-pic-1 {
    width: 400.82px;
    height: 400px;
-   border: 1px solid tomato;
+   /* border: 1px solid tomato; */
    transform: none;
 
 }
@@ -422,4 +422,91 @@
     height: 206px ;
     margin-left: 500px;
 
+}
+.portfolio{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1320px;
+    height: 1163px;
+    /* border:1px solid tomato; */
+    border-radius: 2px;
+}
+.portfolio-container{
+    padding: 2px;
+}
+.portfolio-container-message{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font: bold;
+    margin-bottom: 16px;
+    font-weight: 500px;
+    color: rgb(255, 0, 0);
+    line-height: 29px;
+
+
+}
+.portfolio-container-message h1{
+    font-size: 48px;
+    font-weight: 900px;
+    line-height: 60px;
+    margin-bottom: 22px;
+    color: black;
+
+}
+.portfolio-container-message p{
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+    
+}
+.portfolio-container-picture{
+    margin-top: 48px;
+    display: grid;
+
+    text-align: center;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr)
+    
+}
+.picture-1{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url('/images/Rectangle\ 3.png');
+}
+.picture-2{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url('/images/Rectangle\ 4.png');
+}
+.picture-3{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url('/images/Rectangle\ 5.png');
+}
+.picture-4{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url('/images/Rectangle\ 6.png');
+}
+.picture-5{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url('/images/Rectangle\ 7.png');
+}
+.picture-6{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url('/images/Rectangle\ 8.png');
 }
